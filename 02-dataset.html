@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>data атрибуты</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        line-height: 1.5;
+        color: #2a2a2a;
+      }
+
+      .description {
+        display: flex;
+        align-items: center;
+      }
+
+      .color-preview {
+        width: 48px;
+        height: 48px;
+        margin-left: 8px;
+        border: 1px solid #424242;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <p><a href="index.html">На главную</a></p>
+
+    <div id="colors">
+      <p class="description">
+        Выберите цвет футболки
+        <span class="color-preview js-color-preview"></span>
+      </p>
+
+      <button class="btn" data-color="#f44336">Красный</button>
+      <button class="btn" data-color="#ffeb3b">Желтый</button>
+      <button class="btn" data-color="#4caf50">Зелёный</button>
+      <button class="btn" data-color="#2196f3">Синий</button>
+    </div>
+
+    <div id="actions">
+      <p>Что делаем с этим заказом?</p>
+      <button class="btn" data-action="approve">Подтвердить</button>
+      <button class="btn" data-action="edit">Редактировать</button>
+      <button class="btn" data-action="delete">Удалить</button>
+    </div>
+
+    <script src="js/02-dataset.js" type="module"></script>
+  </body>
+</html>
