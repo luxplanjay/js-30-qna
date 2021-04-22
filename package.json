@@ -1,32 +1,26 @@
 {
-  "name": "js-30-qna",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/luxplanjay/js-30-qna.git"
-  },
-  "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/luxplanjay/js-30-qna/issues"
-  },
-  "homepage": "https://github.com/luxplanjay/js-30-qna#readme",
-  "devDependencies": {
-    "@pnotify/core": "^5.2.0",
-    "parcel-bundler": "^1.12.5",
-    "sass": "^1.32.8"
-  },
-  "dependencies": {
-    "flatpickr": "^4.6.9",
-    "material-design-icons": "^3.0.1",
-    "tippy.js": "^6.3.1",
-    "typed.js": "^2.0.12"
-  }
+    "name": "js-30-qna",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel ./src/*.html",
+        "build": "parcel build ./src/index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/luxplanjay/js-30-qna.git"
+    },
+    "keywords": [],
+    "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/luxplanjay/js-30-qna/issues"
+    },
+    "homepage": "https://github.com/luxplanjay/js-30-qna#readme",
+    "devDependencies": {
+        "parcel-bundler": "^1.12.5",
+        "parcel-plugin-handlebars-precompile": "^1.0.2",
+        "sass": "^1.32.11"
+    }
 }
