@@ -1,1 +1,7 @@
 @import url('./common.scss');
+
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 16px;
+}
