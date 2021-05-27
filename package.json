@@ -25,6 +25,8 @@
     },
     "dependencies": {
         "axios": "^0.21.1",
-        "lodash.debounce": "^4.0.8"
+        "basiclightbox": "^5.0.4",
+        "lodash.debounce": "^4.0.8",
+        "spin.js": "^4.1.0"
     }
 }
